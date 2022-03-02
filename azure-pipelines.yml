@@ -25,7 +25,7 @@ steps:
     csmFileLink: 'https://raw.githubusercontent.com/v4jsrt/test-cicd-1-repo/main/CreateWebApp/azuredeploy.json'
     overrideParameters: '-projectName myarmpipeline'
     deploymentMode: 'Incremental'
-    deploymentName: 'DeployPipelineTemplate'
+    deploymentName: 'pipline-test-1'
   displayName: 'Run a one-line script'
   timeoutInMinutes: 0
 
