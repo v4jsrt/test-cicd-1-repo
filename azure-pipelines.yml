@@ -9,6 +9,8 @@ trigger:
 pool:
   name: Default
 
+
+
 steps:
 - script: echo Hello, world!
 - task: AzureResourceManagerTemplateDeployment@3
@@ -25,6 +27,9 @@ steps:
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
   displayName: 'Run a one-line script'
+  timeoutInMinutes: 0
+
+
 
 - script: |
 
