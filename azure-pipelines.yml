@@ -22,7 +22,7 @@ steps:
     resourceGroupName: 'AzureRmPipline-rg'
     location: 'East Asia'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/v4jsrt/test-cicd-1-repo/main/CreateWebApp/azuredeploy.json?token=GHSAT0AAAAAABSC34WETPUDMQTN67GFV364YQ7J7ZA'
+    csmFileLink: 'https://raw.githubusercontent.com/v4jsrt/test-cicd-1-repo/main/CreateWebApp/azuredeploy.json'
     overrideParameters: '-projectName myarmpipeline'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
